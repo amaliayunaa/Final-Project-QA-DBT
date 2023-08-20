@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi input klaim yang telah diajukan pada halaman klaim apakah sudah muncul atau belum di records</description>
+   <name>Checking functionality Search within employee claim page with existing employee data name</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>060f3dd7-a2af-477f-bd20-ef2a03ebd911</testCaseGuid>
+</TestCaseEntity>

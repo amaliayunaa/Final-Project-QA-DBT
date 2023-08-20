@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test is carried out by checking and verifying whether each expected component appears in the dashboard menu or not. These components are Time at Work, My Actions, Quick Launch, Employee Distribution by Sub Unit, Employees on Leave Today, Buzz Latest Posts, and Employee Distribution by Location.</description>
+   <name>Check and verify whether or not each expected element appears in the dashboard menu</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>f7c5fcc2-5eb1-49a9-a3f8-10620fec6a1a</testCaseGuid>
+</TestCaseEntity>

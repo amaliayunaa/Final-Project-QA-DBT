@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>berhasil menambahkan employee baru</description>
+   <name>TC-AE-01_Berhasil Add Employee</name>
+   <tag>positive</tag>
+   <comment></comment>
+   <testCaseGuid>9ce14ab5-ebc8-4785-820e-ca71eb40df95</testCaseGuid>
+</TestCaseEntity>

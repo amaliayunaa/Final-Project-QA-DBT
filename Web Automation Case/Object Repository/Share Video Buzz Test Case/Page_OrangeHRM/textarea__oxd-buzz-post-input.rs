@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea__oxd-buzz-post-input</name>
+   <tag></tag>
+   <elementGuidId>c05d0be4-76ce-42f1-9007-5a24f7bf8997</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.oxd-buzz-post.oxd-buzz-post--focus.oxd-buzz-post--composing > textarea.oxd-buzz-post-input</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div/div/div/form/div/div[2]/div/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>a0846bb7-f3f5-4bf2-be40-b786102a4694</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>31be1168-7b08-4c4f-b027-c23971b9c2cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-buzz-post-input</value>
+      <webElementGuid>159ce763-0244-4116-baa0-cb06d4f91735</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>What's on your mind?</value>
+      <webElementGuid>4d88e4ec-26b2-4515-9c51-1f1ec09800b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;oxd-grid-2 orangehrm-buzz-layout&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;orangehrm-buzz-newsfeed&quot;]/div[@class=&quot;oxd-overlay oxd-overlay--flex oxd-overlay--flex-centered&quot;]/div[@class=&quot;oxd-dialog-container-default&quot;]/div[@class=&quot;oxd-dialog-container-default--inner&quot;]/div[@class=&quot;oxd-sheet oxd-sheet--rounded oxd-sheet--white oxd-dialog-sheet oxd-dialog-sheet--shadow oxd-dialog-sheet--gutters orangehrm-dialog-modal&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;orangehrm-buzz-post-modal-header&quot;]/div[@class=&quot;orangehrm-buzz-post-modal-header-text&quot;]/div[@class=&quot;oxd-buzz-post oxd-buzz-post--focus oxd-buzz-post--composing&quot;]/textarea[@class=&quot;oxd-buzz-post-input&quot;]</value>
+      <webElementGuid>9091fc3c-c504-4071-8dc2-fdb7d4c79c0e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div/div/div/form/div/div[2]/div/textarea</value>
+      <webElementGuid>9f5e2cd2-bac3-4cdf-99f4-3ae2c4806fc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/textarea</value>
+      <webElementGuid>ee83cad3-acbd-4ac8-a2e8-8bddf6bec7d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@placeholder = concat(&quot;What&quot; , &quot;'&quot; , &quot;s on your mind?&quot;)]</value>
+      <webElementGuid>b3d129d4-7c2a-46f3-961f-b289d1f0e824</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

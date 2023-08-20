@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Melakukan hapus cookies setelah logout dan menguji apakah cookies berhasil dihapus atau tidak dengan masuk ke halaman dashboard</description>
+   <name>Logout deleting cookies</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>532851cd-1203-40f9-87cf-15fafebfb00b</testCaseGuid>
+</TestCaseEntity>

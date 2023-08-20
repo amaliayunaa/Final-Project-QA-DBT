@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pengecekan fitur pencarian pada halaman employee claim dengan menggunakan reference id yang telah ada</description>
+   <name>Checking functionality Search within employee claim page with existing reference id</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>d234b9e8-8f6f-421a-ab72-5d05f210dbc3</testCaseGuid>
+</TestCaseEntity>

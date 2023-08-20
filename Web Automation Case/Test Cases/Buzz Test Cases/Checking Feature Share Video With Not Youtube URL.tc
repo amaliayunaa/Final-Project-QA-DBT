@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Checking Feature Share Video With Not Youtube URL</name>
+   <tag>Negative</tag>
+   <comment></comment>
+   <testCaseGuid>aff42ef8-30de-46f7-9759-621e9eb5a89a</testCaseGuid>
+</TestCaseEntity>

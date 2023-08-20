@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Checking Feature Search With Correct Input</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>0e6038ee-055b-4508-97d0-6532d38bda23</testCaseGuid>
+</TestCaseEntity>

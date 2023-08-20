@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "f0ccf61d-1740-43ad-8c99-833942d6ef6c",
+		"name": "Case API Automation (2)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24349090",
+		"_collection_link": "https://kelompok-3-tubesmodul-3.postman.co/workspace/Team-Workspace~9b76dccc-1e74-4e19-861f-cea604e98746/collection/24349090-f0ccf61d-1740-43ad-8c99-833942d6ef6c?action=share&creator=24349090&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "https://reqres.in/api/users",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const ExpectedJSONSchema = \r",
+							"{\r",
+							"  \"type\": \"object\",\r",
+							"  \"properties\": {\r",
+							"    \"name\": {\r",
+							"      \"type\": \"string\"\r",
+							"    },\r",
+							"    \"job\": {\r",
+							"      \"type\": \"string\"\r",
+							"    },\r",
+							"    \"id\": {\r",
+							"      \"type\": \"string\"\r",
+							"    },\r",
+							"    \"createdAt\": {\r",
+							"      \"type\": \"string\"\r",
+							"    }\r",
+							"  },\r",
+							"  \"required\": [\r",
+							"    \"name\",\r",
+							"    \"job\",\r",
+							"    \"id\",\r",
+							"    \"createdAt\"\r",
+							"  ]\r",
+							"}\r",
+							"\r",
+							"pm.test(\"Verification JSON Schema\",function(){\r",
+							"    pm.response.to.have.jsonSchema(ExpectedJSONSchema)\r",
+							"})\r",
+							"\r",
+							"pm.test(\"Response time is less than 500ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Status code is 201\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"\r",
+							"var jsonData = pm.response.json(); \r",
+							"pm.test(\"Verify Json data values\", function () { \r",
+							"\r",
+							"    pm.expect(jsonData.name).is.to.equal(\"Tefa\"); \r",
+							"    pm.expect(jsonData.job).is.to.equal(\"internship\"); \r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Tefa\",\r\n    \"job\" : \"internship\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://reqres.in/api/users",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

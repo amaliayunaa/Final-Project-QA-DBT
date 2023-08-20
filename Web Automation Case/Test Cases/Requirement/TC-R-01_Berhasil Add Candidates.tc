@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>berhasil menambahkan candidat baru</description>
+   <name>TC-R-01_Berhasil Add Candidates</name>
+   <tag>positive</tag>
+   <comment></comment>
+   <testCaseGuid>af340b85-dbdd-4f2c-9820-d80c837c1e87</testCaseGuid>
+</TestCaseEntity>

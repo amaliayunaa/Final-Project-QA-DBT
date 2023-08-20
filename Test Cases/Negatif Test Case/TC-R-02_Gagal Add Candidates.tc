@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Gagal Add Candidates karena tidak mengisi Email</description>
+   <name>TC-R-02_Gagal Add Candidates</name>
+   <tag>negative</tag>
+   <comment></comment>
+   <testCaseGuid>02bd58f1-5e2d-4a33-aa84-b7d7fed74e8d</testCaseGuid>
+</TestCaseEntity>

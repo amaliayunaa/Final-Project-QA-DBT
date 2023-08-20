@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Gagal Add Employe karena tidak memasukkan nama belakang</description>
+   <name>TC-AE-02_Gagal Add Employee</name>
+   <tag>negative</tag>
+   <comment></comment>
+   <testCaseGuid>c4962cf3-ef3f-4b5a-b967-90a782bbd2d5</testCaseGuid>
+</TestCaseEntity>
